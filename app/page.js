@@ -101,7 +101,7 @@ export default function Home() {
 	return (
 		<main className="flex min-h-screen flex-col justify-between pt-6">
 			<div className="pb-10 mx-auto max-w-2xl px-4 py-16 sm:px-6 lg:max-w-5xl lg:px-8">
-				<div className="flex items-center justify-center text-4xl font-bold text-gray-900 gap-6">
+				<div className="flex flex-col items-center justify-center text-4xl font-bold text-gray-900 gap-6 sm:flex-row">
 					<div className="flex flex-col gap-4">
 						<img
 							className="inline-block h-30 w-30 rounded-full"
@@ -129,21 +129,21 @@ export default function Home() {
 									href={email}
 									className="text-gray-600 hover:text-gray-400"
 								>
-									<span className="sr-only">LInkedIn</span>
+									<span className="sr-only">LinkedIn</span>
 									<MdEmail className="h-4 w-4" />
 								</a>
 							</div>
 						</div>
 					</div>
 
-					<div className="flex flex-col gap-2">
+					<div className="flex flex-col gap-2 items-center sm:items-stretch">
 						<h1>Avery Gillis</h1>
 						<div className="flex flex-row justify-between">
 							<p className="text-sm text-gray-500 md:text-lg lg:text-xl">
 								Social Content Manager | Communications Consultant
 							</p>
 
-							<div className="hidden sm:flex sm:flex-row">
+							<div className="hidden lg:flex lg:flex-row">
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
 									fill="none"
