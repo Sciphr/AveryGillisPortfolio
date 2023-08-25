@@ -1,5 +1,5 @@
 const getData = async () => {
-	const response = await fetch("http://localhost:3000/api/tester", {
+	const response = await fetch(process.env.URL + "/api/tester", {
 		method: "GET",
 		headers: {
 			"Content-Type": "application/json",
