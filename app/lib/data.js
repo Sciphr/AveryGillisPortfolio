@@ -163,7 +163,7 @@ export const interviewData = [
 		title: "Mentoring the next generation: Mary Reed's story",
 		description:
 			"Mary Reed has spent nearly 40 years as a cardiac nurse at London Health Sciences Centre (LHSC).",
-		url: "https://www.lhsc.on.ca/about-lhsc/mentoring-the-next-generation-mary-reeds-story",
+		url: "https://www.lhsc.on.ca/news/how-mentors-foster-mentors-mary-reeds-story?fbclid=IwAR3mA7hgm-GiGwSgxnhjxppaUYrj6U-yVgFGYMv50eExpiiDJBNmBJTTSzQ",
 		image:
 			"https://www.lhsc.on.ca/sites/default/files/images/2023-05/4_mary_reed_emily_taft.png",
 	},
@@ -199,7 +199,7 @@ export const interviewData = [
 		description: "Charcoal Powder for bushing teeth.",
 		url: "https://clippingsme-assets-1.s3.amazonaws.com/cuttingpdfs/1314824/277d7350d9f952bc9a33508799457b2c.pdf?",
 		image:
-			"https://i1.sndcdn.com/artworks-D9kiGqfwUyazcSr9-WDMm5Q-t500x500.jpg",
+			"https://res.cloudinary.com/dcigheskg/image/upload/v1692822255/Avery%20Portfolio/ActiveWow_gexwgq.png",
 	},
 	{
 		id: 18,
