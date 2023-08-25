@@ -99,7 +99,7 @@ export default function Home() {
 	};
 
 	return (
-		<main className="flex min-h-screen flex-col justify-between pt-6">
+		<main className="flex min-h-screen flex-col justify-between pt-6 bg-pink-50">
 			<div className="pb-10 mx-auto max-w-2xl px-4 py-16 sm:px-6 lg:max-w-5xl lg:px-8">
 				<div className="flex flex-col items-center justify-center text-4xl font-bold text-gray-900 gap-6 sm:flex-row">
 					<div className="flex flex-col gap-4">
@@ -167,7 +167,7 @@ export default function Home() {
 							</div>
 						</div>
 
-						<div className="relative pt-8">
+						<div className="relative sm:pt-6 md:pt-8 lg:pt-8 xl:pt-8 2xl:pt-8">
 							<div
 								className="absolute inset-0 flex items-center"
 								aria-hidden="true"
